@@ -6,3 +6,6 @@
 3. on meraki dashboard, tag the switch with "provision" tag and name it the same as the config file (SwitchA.cfg name the MS SwitchA)
 4. Run the HP_convert.py script, it'll iterate through the configs and configure the switch ports
 
+Requirements
+-meraki SDK for python (https://developer.cisco.com/meraki/api/#/python/getting-started)
+-python 3.x
