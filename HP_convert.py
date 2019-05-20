@@ -9,14 +9,14 @@ import sys
 import getopt
 from meraki.meraki import Meraki
 
-***********************************************
-*****ONLY MODIFY HERE**************************
+#***********************************************
+#*****ONLY MODIFY HERE**************************
 orgid = "" #organization ID
 x_cisco_meraki_api_key = "" #needs R/W access
 SITE = "" #name of the network, not network_id
 
-***********************************************
-***********************************************
+#***********************************************
+#***********************************************
 
 input_path = 'input/' #directory that holds the switch configs
 
